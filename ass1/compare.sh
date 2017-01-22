@@ -1,5 +1,5 @@
 #!/bin/bash
-re="^-?[0-9]+\.?[0-9]+$"
+re="^-?[0-9]+\.?[0-9]*"
 if (($#!=2));
 	then echo "Not correct number of arguments. Try again."
 	exit 1
