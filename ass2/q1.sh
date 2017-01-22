@@ -17,5 +17,5 @@ BEGIN { FS=",";}
 	}
 	printf "\n";
 }
-END{ print "done"}' $1
+' $1
 
