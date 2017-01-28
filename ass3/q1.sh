@@ -6,6 +6,11 @@ length=${#array[*]}
 max=${array["$length-1"]}
 #echo "$min $max"
 array1=()
+if [[ $min == $max ]]
+then
+        echo "All numbers same. Consider all to be 1."
+        exit 1
+fi
 index=0
 while read line;do
        array1[index]="$line"
