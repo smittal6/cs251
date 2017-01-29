@@ -12,7 +12,13 @@ then
         exit 1
 fi
 index=0
+re="^-?[0-9]+\.?[0-9]+$"
 while read line;do
+       if [[ ! $line =~ $re ]]
+       then
+               echo "Please enter numbers as input"
+               exit 1
+       fi
        array1[index]="$line"
        let index=index+1
 done < $1
