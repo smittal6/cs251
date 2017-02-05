@@ -1,6 +1,6 @@
 
 clear all;
-lambda=1;
+lambda=2;
 #i=10;
 
 #### Now let us set the variables for the required sizes
