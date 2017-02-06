@@ -8,7 +8,15 @@ function mthroot (n,m=2,d=4,low,high)
   if (n<0)
     sign=1;
     n=n*-1;
-    high=n;
+    if(n<1 && m>1)
+      low=n;
+      high=1;
+    elseif(n>1 && m<1)
+      low=n;
+      high=power(10,8);
+    else
+      high=n;
+    endif
   else
     sign=0;
   endif
