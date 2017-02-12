@@ -26,12 +26,14 @@ result1=aggregate(complete1_data,by=list(complete_data$Species),FUN="mean")
 #vimeansw=mean(vi_data[,"Sepal.Width"])
 #vimeanpl=mean(vi_data[,"Petal.Length"])
 #vimeanpw=mean(vi_data[,"Petal.Width"])
-
 ##
 contingency1=table(complete_data$Good, complete_data$Species)
 png(filename="chart1.png")
-barplot(contingency1,main="Frequency for Species according to Goodness",xlab="Species",ylab = "Frequecies",col = c("green","blue","orange"),ylim=c(0,70))
+bp=barplot(contingency1,main="Frequency for Species according to Goodness",xlab="Species",ylab = "Frequecies",col = c("green","blue","orange"),ylim=c(0,70))
 legend("topleft",c("Good","Medium","Bad"),cex=0.9,fill=c("green","blue","orange"))
+text(bp,colSums(contingency1[c(2,3),]),contingency1[c(1),],pos=3)
+text(bp,0.5,contingency1[c(2),],pos=3)
+text(bp,contingency1[c(2),]+0.2,contingency1[c(3),],pos=3)
 dev.off()
 
 ##Building the detailed contingency table
@@ -42,5 +44,6 @@ contingency_table1=aggregate(temp_data,by=list(complete_data$Good),FUN="mean")
 contingency_table2=aggregate(temp_data,by=list(complete_data$Good,complete_data$Species),FUN="mean")
 
 result1
+contingency1
 contingency_table1
 contingency_table2
