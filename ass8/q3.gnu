@@ -1,10 +1,10 @@
 #!/usr/bin/gnuplot
 
 set term postscript eps enhanced color 20
-set output 'try2.eps'
+set output 'q3.eps'
 
 set style data histograms
-set style histogram cluster errorbars gap 4 lw 3
+set style histogram cluster errorbars gap 5 lw 3
 set key left
 set boxwidth 1 relative
 #set style histogram cluster gap 1
