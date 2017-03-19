@@ -5,12 +5,12 @@ set output 'q2.eps'
 
 #set linestyle 1 lt 1 lc 7
 set style data histogram
-set style histogram clustered errorbars gap 2
+set style histogram clustered errorbars gap 2 lw 2
 
 set style fill solid border rgb "black"
 set auto x
 set title "Frequency for different distributions"
-set xlabel "Distribution"
+set xlabel "Distributions"
 set ylabel "Frequency"
 set yrange [0:*]
 plot 'table1.txt' using 2:6:xtic(1) title col(2), \

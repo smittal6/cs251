@@ -10,28 +10,35 @@ df9=read.csv("file9.csv",header=FALSE)
 df10=read.csv("file10.csv",header=FALSE)
 #Now let us vertically join the distributions, rbind will come handy
 df=rbind(df1,df2,df3,df4,df5,df6,df7,df8,df9,df10)
-#now we have 1000 values, of two distributions
-dist1=df$V1 #The distribution 1
-dist2=df$V2 #Second distribution
-breaks=seq(0,1,by=0.25)
-dist1.cut = cut(dist1, breaks, right=FALSE)
-dist2.cut = cut(dist2, breaks, right=FALSE)
-dist1.freq=table(dist1.cut)
-dist2.freq=table(dist2.cut)
-#Let us now obtain the actual values, as stored in the separations
-l1=split(dist1, cut(dist1, c(0, 0.25, 0.50, 0.75, 1.00), include.lowest=TRUE,right=FALSE))
-l2=split(dist2, cut(dist2, c(0, 0.25, 0.50, 0.75, 1.00), include.lowest=TRUE,right=FALSE))
+breaks=c(-1,0.25,0.5,0.75,1)
+###now let us make the table of frequencies.
+dist1_table=matrix(nrow = 10,ncol = 4)
+dist2_table=matrix(nrow = 10,ncol = 4)
+for(i in c(0,1,2,3,4,5,6,7,8,9)){
+  l=100*i+1
+  r=100*(i+1)
+  distribution1=df[l:r,1]
+  distribution2=df[l:r,2]
+  freq_dist1=table(cut(distribution1,breaks,right = FALSE))
+  freq_dist2=table(cut(distribution2,breaks,right=FALSE))
+  dist1_table[i+1,]=freq_dist1
+  dist2_table[i+1,]=freq_dist2
+}
 
-#now let us calculate the standard deviations
-#sd1 is for the values in first interval, sd2 for values in second etc
-sd1=c(sd(l1[[1]])*dist1.freq[[1]],sd(l2[[1]])*dist2.freq[[1]])
-sd2=c(sd(l1[[2]])*dist1.freq[[2]],sd(l2[[2]])*dist2.freq[[2]])
-sd3=c(sd(l1[[3]])*dist1.freq[[3]],sd(l2[[3]])*dist2.freq[[3]])
-sd4=c(sd(l1[[4]])*dist1.freq[[4]],sd(l2[[4]])*dist2.freq[[4]])
-##Now I have all the required values. Let us put this shit together.
+#dist1_table All normals
+#dist2_table uniform
 
-freq=rbind(dist1.freq,dist2.freq)
-freq=cbind(freq,sd1,sd2,sd3,sd4)
+##Making the first file from the data values
+vector1=c(mean(dist1_table[1:10,1]),mean(dist1_table[1:10,2]),mean(dist1_table[1:10,3]),mean(dist1_table[1:10,4]))
+vector2=c(mean(dist2_table[1:10,1]),mean(dist2_table[1:10,2]),mean(dist2_table[1:10,3]),mean(dist2_table[1:10,4]))
+sd11=c(sd(dist1_table[1:10,1]),sd(dist1_table[1:10,2]),sd(dist1_table[1:10,3]),sd(dist1_table[1:10,4]))
+sd21=c(sd(dist2_table[1:10,1]),sd(dist2_table[1:10,2]),sd(dist2_table[1:10,3]),sd(dist2_table[1:10,4]))
+Normal=c(vector1,sd11)
+Uniform=c(vector2,sd21)
+#final table, with one row having all info about Normal distributions
+#second row having info about uniform distributions
+res1=rbind(Normal,Uniform)
 sink("table1.txt")
-freq
+print(res1)
 sink()
+
