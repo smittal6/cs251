@@ -1,8 +1,8 @@
 create table facstaff(
   name varchar(50) not null,
   id integer primary key,
-  address varchar(70) not null,
-  phone varchar(11),
+  addr varchar(70) not null,
+  phonenum varchar(11),
   department varchar(10) not null,
   facorstaff varchar(5) not null
 );
@@ -10,12 +10,12 @@ create table facstaff(
 create table students(
   name varchar(50) not null,
   id integer primary key,
-  address varchar(70) not null,
+  addr varchar(70) not null,
   department varchar(10) not null,
   ugorpg varchar(2) not null,
   hostel varchar(10) not null,
   marital varchar(3) not null,
-  phone varchar(11),
+  phonenum varchar(11),
   advisor1 integer,
   advisor2 integer,
   a1dep varchar(10),
@@ -28,8 +28,8 @@ create table students(
 create table family(
   name varchar(50) not null,
   id integer not null,
-  phone varchar(11),
-  address varchar(70) not null,
+  phonenum varchar(11),
+  addr varchar(70) not null,
   relation varchar(10) not null,
   relid integer not null,
   foreign key(relid) references students(id),
