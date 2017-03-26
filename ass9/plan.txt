@@ -1,0 +1,24 @@
+Students:
+  Roll Number
+  Department
+  Address
+  UG/PG
+  Advisors: for UG, two null advisors possible
+            for PG, first one is not null
+            Atleast one from the same department
+Faculty:
+  Personal Identification Number
+  Department
+  Address
+Staff:
+  Personal Identification Number
+  Department
+  Address
+
+
+Family Numbers:
+  can have a unique number
+  have to be tagged with atleast a core member through foreign key, can be tagged with many core members
+
+Not optional:
+  phone
