@@ -28,7 +28,7 @@ create table students(
 create table family(
   name varchar(50) not null,
   id integer not null,
-  phone varchar(11) not null,
+  phone varchar(11),
   address varchar(70) not null,
   relation varchar(10) not null,
   relid integer not null,
@@ -37,7 +37,6 @@ create table family(
 );
 
 create table hod(
-  name varchar(50) not null,
   department varchar(10) primary key,
   id integer not null,
   foreign key(id) references facstaff(id)
