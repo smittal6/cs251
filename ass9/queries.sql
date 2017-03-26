@@ -29,4 +29,4 @@ select ((select count(*) from students where ugorpg="ug" and advisor1 is not nul
 
 /*Query g*/
 .print 'Query G'
-select id from facstaff where (faculty
+select id from facstaff where (facstaff.id=(select advisor2 from students) and facstaff.department!=(select department from students));
