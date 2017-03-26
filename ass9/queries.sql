@@ -19,13 +19,21 @@ select count(*) from students;
 .print 'Number of family members: '
 select distinct count(id) from family; 
 
+.print 'Total: '
+select (
+select count(*) from facstaff where facorstaff="fac"+
+select count(*) from students+
+select distinct count(id) from family+
+select count(*) from facstaff where facorstaff="staff");
 /* Query d*/
-.print 'Query d'
+.print 'Average number of family members per faculty member'
 select (select distinct count(id) from family where (relid>=1 and relid<=50))/(select count(*) from facstaff where facorstaff="fac");
 
+/*Query E*/
+
 /*Query f*/
-.print 'Query F'
-select ((select count(*) from students where ugorpg="ug" and advisor1 is not null)*100)/(select count(*) from students where ugorpg="ug");
+.print 'Percentage of UG students having an advisor'
+select ((select count(*) from students where ugorpg="ug" and advisor1 is not null)*100.0)/(select count(*) from students where ugorpg="ug");
 
 /*Query g
 .print 'Query G'
