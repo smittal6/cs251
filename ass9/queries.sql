@@ -27,7 +27,8 @@ select (select count(*) from facstaff where facorstaff="fac")+(select count(*) f
 select (select distinct count(id) from family where (relid>=1 and relid<=50))*1.0/(select count(*) from facstaff where facorstaff="fac");
 
 /*Query E*/
-
+.print 'Faculty which are head of more than one department: '
+select id from hod group by id having count(department)>1;
 /*Query f*/
 .print 'Percentage of UG students having an advisor: '
 select ((select count(*) from students where ugorpg="ug" and advisor1 is not null)*100.0)/(select count(*) from students where ugorpg="ug");
