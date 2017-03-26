@@ -1,6 +1,6 @@
 /*Query a*/
 .print 'Number of married students'
-select count(*) from students where marital="yes";
+select count(*) from students where marital="y";
 
 /*Query b*/
 .print 'Number of students staying in married hostels: '
@@ -27,6 +27,6 @@ select (select distinct count(id) from family where (relid>=1 and relid<=50))/(s
 .print 'Query F'
 select ((select count(*) from students where ugorpg="ug" and advisor1 is not null)*100)/(select count(*) from students where ugorpg="ug");
 
-/*Query g*/
+/*Query g
 .print 'Query G'
-select id from facstaff where (facstaff.id=(select advisor2 from students) and facstaff.department!=(select department from students));
+select id from facstaff where (facstaff.id=(select advisor2 from students) and facstaff.department!=(select department from students));*/
