@@ -17,30 +17,22 @@ select count(*) from facstaff where facorstaff="staff";
 select count(*) from students;
 
 .print 'Number of family members: '
-select distinct count(id) from family; 
+select count(distinct id) from family; 
 
 .print 'Total: '
-select (select count(*) from facstaff where facorstaff="fac")+(select count(*) from students)+( select distinct count(id) from family)+(select count(*) from facstaff where facorstaff="staff");
+select (select count(*) from facstaff where facorstaff="fac")+(select count(*) from students)+( select count(distinct id) from family)+(select count(*) from facstaff where facorstaff="staff");
 
 /* Query d*/
 .print 'Average number of family members per faculty member'
-select (select distinct count(id) from family where (relid>=1 and relid<=50))*1.0/(select count(*) from facstaff where facorstaff="fac");
+select (select count(distinct id) from family where (relid>=1 and relid<=50))*1.0/(select count(*) from facstaff where facorstaff="fac");
 
 /*Query E*/
 .print 'Faculty which are head of more than one department: '
 select id from hod group by id having count(department)>1;
-/*Query f*/
+/*aQuery f*/
 .print 'Percentage of UG students having an advisor: '
 select ((select count(*) from students where ugorpg="ug" and advisor1 is not null)*100.0)/(select count(*) from students where ugorpg="ug");
 
 /*Query g*/
 .print 'Number of faculty members advising students from other departments: '
-/*select
-	one.id
-from
-	facstaff one
-	join students two
-	on one.id=two.advisor2
-where
-a.department!=b.department;*/
 select distinct count(advisor2) from students where a2dep is not null and a2dep!=department;
