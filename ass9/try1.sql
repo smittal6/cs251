@@ -18,8 +18,8 @@ create table students(
   phone varchar(11),
   advisor1 integer,
   advisor2 integer,
-  a1dep varchar(5),
-  a2dep varchar(5),
+  a1dep varchar(10),
+  a2dep varchar(10),
   check (a1dep is null or a1dep=department),
   check ((ugorpg="pg" and a1dep is not null) or (ugorpg="ug")),
   foreign key(advisor1,advisor2) references facstaff(id,id)
@@ -41,3 +41,8 @@ create table hod(
   id integer not null,
   foreign key(id) references facstaff(id)
 );
+.separator ','
+.import facstaff.csv facstaff
+.import student.csv students
+.import members.csv family
+.import hod.csv hod
