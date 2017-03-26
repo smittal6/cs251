@@ -13,6 +13,7 @@ create table students(
   address varchar(70) not null,
   department varchar(10) not null,
   ugorpg varchar(2) not null,
+  hostel varchar(10) not null,
   marital varchar(3) not null,
   phone varchar(11),
   advisor1 integer,
