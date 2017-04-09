@@ -1,7 +1,11 @@
-
+html {
+  height:100%;
+}
 body {
-margin:0;
-text-align: center;
+  margin:0;
+  /*text-align: center;*/
+  height:100%;
+  background-color: #C0C0C0;
 }
 
 .topnav {
@@ -18,7 +22,7 @@ text-align: center;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 .topnav a:hover {
@@ -29,4 +33,61 @@ text-align: center;
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+/*now the definitions for elements according to the pages*/
+#picdiv {
+  display: flex;
+  float: left;
+  width: 40%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-circle{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  display: block;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+}
+#hometext {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  float: right;
+  color: #1ea9e5;
+  font-size:35px;
+  height: 100%;
+  justify-content: left;
+}
+
+/*This is now for acads page*/
+#acads {
+  display: flex;
+  height: 100%;
+  padding-left: 40px;
+  font-size: 35px;
+  color: #1ea9e5;
+  align-items: left;
+}
+/*This is for personal interests page*/
+#personal {
+  display: flex;
+  font-size: 30px;
+  color: #1ea9e5;
+  height: 100%;
+  align-items: left;
+  padding-left: 40px;
+}
+/*these are the defining properties for counter div*/
+#count {
+  display:flex;
+  font-size:30px;
+  height:100%;
+  padding:50px;
 }
