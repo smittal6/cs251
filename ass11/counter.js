@@ -5,3 +5,8 @@ function increment()
   value++;
   document.getElementById('num').value = value;
 }
+
+function reset()
+{
+  document.getElementById('num').value = 0;
+}

@@ -60,34 +60,87 @@ body {
   align-items: center;
   width: 60%;
   float: right;
-  color: #1ea9e5;
+  color: black;
   font-size:35px;
   height: 100%;
   justify-content: left;
 }
 
 /*This is now for acads page*/
-#acads {
-  display: flex;
-  height: 100%;
+.acads {
+  display: block;
+  /*height: 100%;*/
   padding-left: 40px;
+  padding-top: 50px;
   font-size: 35px;
-  color: #1ea9e5;
-  align-items: left;
+  color: black;
+  justify-content: center;
 }
 /*This is for personal interests page*/
-#personal {
-  display: flex;
+.personal {
+  display: inline-block;
   font-size: 30px;
-  color: #1ea9e5;
-  height: 100%;
+  color: black;
+  width: 100%;
+  /*height: 100%;*/
   align-items: left;
   padding-left: 40px;
+  /*padding-right: 40px;*/
+  /*margin-right: 40px;*/
 }
 /*these are the defining properties for counter div*/
 #count {
   display:flex;
-  font-size:30px;
+  font-size:35px;
   height:100%;
   padding:50px;
+  margin-top: 100px;
+  /*align-items: center;*/
+  justify-content: center;
+}
+
+/*These are for form page*/
+#form2{
+  display: flex;
+  font-size: 30px;
+  height: 100%;
+  /*padding-left: 50px;*/
+  padding-top: 50px;
+  /*margin-left: 50px;*/
+  width: 50%;
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
+#display1{
+  display:flex;
+  font-size:30px;
+  height: 100%;
+  padding-top: 50px;
+  width: 50%;
+  float: right;
+  justify-content: left;
+  align-items: center;
+}
+
+#mybox{
+  width: 70%;
+  height: 70%;
+  color: black;
+  font-size: 30px;
+}
+
+#submit2{
+  font-size:30px;
+}
+
+.bf{
+  font-size: 35px;
+}
+td{
+  padding: 10px;
+}
+.mytable{
+  text-align:center;
+  border-collapse: collapse;
 }

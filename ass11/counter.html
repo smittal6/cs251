@@ -13,9 +13,7 @@
     <title>Siddharth Mittal, IITK | Homepage</title>
     <script src="counter.js"></script>
     <link href="mystyle.css" rel="stylesheet"/>
-
   </head>
-
   <body>
     <div class="topnav">
       <a href="index.html">Home</a>
@@ -26,8 +24,9 @@
     </div>
     <div id="count">
       <form>
-        <input type="text" id="num" value="0"/>
-        <input type="button" onclick="increment()" value="Click to Increment Value"/>
+        <input type="text" class="bf" id="num" value="0"/>
+        <input type="button" class="bf" onclick="increment()" value="Click to Increment Value"/>
+        <input type="button" class="bf" onclick="reset()" value="Click to reset to Zero"/>
       </form>
     </div>
   </body>
