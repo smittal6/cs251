@@ -1,0 +1,444 @@
+commit 0805b8b96831589c5b6b4494c4afee0022ce0112
+Merge: 84b84f7 8439a53
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 22:54:43 2017 +0530
+
+    merging
+
+commit 8439a5397ed8ff792601fa6eee280d5ba927f4a8
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 22:49:02 2017 +0530
+
+    made changes by going back
+
+commit 84b84f79bf717faa5e93a36a7ed6bcab2f60c9a9
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 22:25:55 2017 +0530
+
+    last commit
+
+commit 0d92951ecc09c4f222618839fba2a8a85be566f5
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 22:25:16 2017 +0530
+
+    second last to mine
+
+commit 3f84e1e8e5c123cbc6698fe62d36b7b3e946b5f5
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 22:23:59 2017 +0530
+
+    Add section for unknown
+
+commit 466e3d62925a4894dea1f8ee6ff51fa0f97dc378
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 22:22:58 2017 +0530
+
+    change the year to 1997
+
+commit d9561e85e1fc0636b0996d66e86d468a40574ee9
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 22:21:18 2017 +0530
+
+    remove a section
+
+commit 7b355b5510f4a5999509fd9de659a3a7732e2d2d
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 15:11:56 2017 +0530
+
+    add gitignore
+
+commit 71f50c13e216e388cf0715e0c60811aec52680c5
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Apr 2 15:11:14 2017 +0530
+
+    initial
+
+commit f9b20ce3061209192b0ce60e6e6c101598ca5311
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 02:36:16 2017 +0530
+
+    differences created
+
+commit ea6fe971e4bc9d8f17dfc60541194a5e8cdc2421
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 02:26:15 2017 +0530
+
+    the database
+
+commit f3495d2609c83488f674b541e26393484609a627
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 02:14:43 2017 +0530
+
+    modifying family query
+
+commit 4ae214a08f2c7ac4629716356a8b0e4d039c6c62
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 02:06:29 2017 +0530
+
+    add query E
+
+commit c9f6b20afb81e211f9aaa818d061662f9d77a003
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 01:50:58 2017 +0530
+
+    removed errors
+
+commit 68be259138575eda9c2812b91d4861e3b3acff9d
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 01:39:38 2017 +0530
+
+    updated queries
+
+commit 9281bafdb811beca2c890408fe2a561b8f8b4ede
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 01:14:30 2017 +0530
+
+    minor modifications
+
+commit 130153a91bc7835955b84cbaceb6501a1abea7ce
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 01:11:39 2017 +0530
+
+    add import of csvs
+
+commit 59a37d9cf025038012a5d1833bcadda203a1ccc7
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 00:58:30 2017 +0530
+
+    add data files for members and students
+
+commit 9b507d1cdf8fd1e9568b9b26e6fe229f47b2342d
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 00:40:30 2017 +0530
+
+    update to include last query
+
+commit ae001050148f9e387df36c1e71aa5526b3fb4c3c
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 00:36:43 2017 +0530
+
+    update gitignore to include swp files
+
+commit f6800a2fe6ada94fae091a3747088893f01b02c3
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 00:23:23 2017 +0530
+
+    removed not null condition
+
+commit bb8e6970dad1dc4be3b0fa19cbbc106231eb0cfc
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 00:22:48 2017 +0530
+
+    specified more departments
+
+commit e41931fd6e233f5635e61a2ea50b15423bbfa58b
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 00:21:39 2017 +0530
+
+    queries till f done
+
+commit 156256259f66e6cfa6d9b3fa93f2bed3bae8cb8d
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 27 00:07:31 2017 +0530
+
+    created tables for staff and hods
+
+commit 4b2cb70f46732cd667d5974215b6048d29315cfb
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 26 22:49:45 2017 +0530
+
+    added query a, query b
+
+commit b28250fc47f13cdac7d447084bc97acce3c03824
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 26 22:34:28 2017 +0530
+
+    initial
+
+commit f5b236c3a313bc30efdf8e6ec87056d9a4c5b11e
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 20:38:11 2017 +0530
+
+    update gitignore
+
+commit 39d624e87b6f4f2aef422b557f15acb97cdc99df
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 20:37:11 2017 +0530
+
+    tp
+
+commit cde1be437a1d939bd234dcef5bb70294206381d0
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 20:36:17 2017 +0530
+
+    add gitignore
+
+commit a3804fb624f4653ddafe66721b51800ad6d45351
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 20:11:15 2017 +0530
+
+    completed the drawing
+
+commit 18531b3c92d8bc8802ae71b178e519862c259029
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 17:16:49 2017 +0530
+
+    update to plot average of frequencies
+
+commit 337dcee6a144308805f534706793093000ebefbe
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 16:26:41 2017 +0530
+
+    q3 done
+
+commit 1b409cf868a42a6460632cb898307049a47ae8c3
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 16:24:23 2017 +0530
+
+    script for getting the SD's. Kaartik's method
+
+commit 74d6f25643a499da92d504b644c7133ad3cb078b
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Mar 19 16:21:57 2017 +0530
+
+    implemented third by using sd of frequencies
+
+commit 313a8bad3d2ce8e4dddca052d621242b4f0e18c1
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Mar 18 18:25:16 2017 +0530
+
+    Standard deviation
+
+commit 4ccdd863e2076ec64966a795fd82b71563c27a3e
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Mar 18 16:49:08 2017 +0530
+
+    taking all 1000 values, and SD is error mesasurement
+
+commit a79b5740f7888bbc25715896f31b25d4ad824a36
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Fri Mar 17 18:31:54 2017 +0530
+
+    from space separated to newline separated data
+
+commit c935ca0fea0c48d0a727b05ec7b09325c6387fde
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Thu Mar 16 22:42:35 2017 +0530
+
+    add script and data files
+
+commit f6534eca16c052c36089eef2588079cce7396edf
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Mar 6 09:35:16 2017 +0530
+
+    assignment 7 fellas
+
+commit 01687df8943fae0d11dbaca5489f937b732fae80
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Feb 19 19:48:31 2017 +0530
+
+    Latex Assignment
+
+commit 3a9ca4d2cb7064f90a7f79a778ff693e5fc8f7a1
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Feb 12 19:38:58 2017 +0530
+
+    Adding plots
+
+commit a62c49b45ed525411f294547eb24d2f5173aac12
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Feb 12 14:36:14 2017 +0530
+
+    Hopefully final
+
+commit c6799a378ff5e334d09d73ac8a1eda384f03dd83
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Feb 12 09:57:07 2017 +0530
+
+    add text to plot
+
+commit aaaa4b3b640d844dd710a80149273a0942ff74d6
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Feb 12 01:08:46 2017 +0530
+
+    Using aggregate
+
+commit e9994fe89068f6937304fbe03af63693d6245376
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Feb 11 16:32:53 2017 +0530
+
+    initial commit
+
+commit dceaa47bb199ef770a3377f489e414b1e7650a9d
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Wed Feb 8 09:43:19 2017 +0530
+
+    Don't know
+
+commit a078a035479eb363bf3dc9c4bdd5810060253219
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Feb 6 09:19:37 2017 +0530
+
+    handled more negative cases
+
+commit c0c9bfca7de45797813ebf8ab498c8fcdceed4ce
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Feb 6 00:40:05 2017 +0530
+
+    mth root of negative numbers where m is odd
+
+commit 12cc09de09476ceccdab7415454a4a4863313896
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Feb 5 15:49:51 2017 +0530
+
+    finally done
+
+commit 5a9927c6243e919e1beadbaedeada535caa30801
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Feb 4 22:55:13 2017 +0530
+
+    accepted input for Q2
+
+commit 2cf5e69422ac6fdbb5fe59822a2fec893946e202
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Feb 4 22:22:01 2017 +0530
+
+    Question 1 done
+
+commit 8cde0fd60a67c485981da70104e624770b9bcb87
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Feb 4 21:59:54 2017 +0530
+
+    Initial for Assignment 4
+
+commit 7d775b334ae43822a956646e9eb25f50e7114564
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 29 15:49:07 2017 +0530
+
+    Error handling for non numbers
+
+commit b827ea98ace8d887e1ae07c04884e891245735c6
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Jan 28 10:17:57 2017 +0530
+
+    Added support for dividing by zero
+
+commit bfcd410d495411376f9da30edd508e17d19a943a
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Jan 28 00:20:49 2017 +0530
+
+    input files
+
+commit eb9aaa2a45014f1e7ac883c68358345749cdd8c1
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Jan 28 00:19:58 2017 +0530
+
+    Second question done
+
+commit a7cbe54b8774a2578ac98260d89d4de119b92010
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Fri Jan 27 20:54:04 2017 +0530
+
+    added support for reals
+
+commit 9c4181ce51344399baec11e828f3926d8d717c70
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Fri Jan 27 00:42:47 2017 +0530
+
+    First question done
+
+commit 4a23f4401a81fe28f10de0beae3fb774487c35af
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Thu Jan 26 23:46:17 2017 +0530
+
+    Line by line input happening
+
+commit d95a7e5a126ec34550676a56fe50f77c2582360f
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 23:59:18 2017 +0530
+
+    add question
+
+commit 8b73b481f8ea0272dbc7f47e661b8d8987868fcd
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 23:54:46 2017 +0530
+
+    Final commit
+
+commit 83f8d73d265abd1d7f58baab71a71d3ad435241b
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 23:42:58 2017 +0530
+
+    Dont remember
+
+commit db02dc4026804b1b332569ca8b513ea232af222d
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 23:42:29 2017 +0530
+
+    Finally, complete. :D
+
+commit 5d97340590a18163411ef9c43e07f5b6ec6e6b5b
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 14:52:26 2017 +0530
+
+    Reading percentages from file done
+
+commit d77143a9ecd7ed6331acd053537c36ffe2896b1a
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 14:43:13 2017 +0530
+
+    initializing the file
+
+commit eff61c65c7cfff0061a0ad28cf5ac7b443f0d1b4
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 12:27:50 2017 +0530
+
+    Initial commit for assign 2
+
+commit 3cfd1586b01d2ba4b395e39f3fcd9cb166045107
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 22 12:25:54 2017 +0530
+
+    improve error handling
+
+commit 9d8cb6257607ab9f104b8b7bbbb7e9acf787fe09
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Mon Jan 16 00:37:24 2017 +0530
+
+    Added support for floating point comparisons
+
+commit 10d20f91088a97d337d34510d050aac0a3ac6039
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 15 16:30:20 2017 +0530
+
+    Additional check for numbers
+
+commit 2614c22245333d911fbb947e98380d3bf232b38f
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 15 00:24:50 2017 +0530
+
+    Question 2
+
+commit 0d3d743a2705732d6f029fee9571e0921cc98ffc
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 15 00:21:28 2017 +0530
+
+    Test file
+
+commit a3fd1e488d5ecfdea8f27018e4c5ef6f95a33732
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sun Jan 15 00:20:24 2017 +0530
+
+    Change exit codes
+
+commit d0deb3cec5d2c386292ee52f655723bdce32b1e9
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Jan 14 22:32:33 2017 +0530
+
+    Name change
+
+commit 52961ab2974f6866754129d1f704257475fff864
+Author: Siddharth Mittal <smittal6@gmail.com>
+Date:   Sat Jan 14 22:11:54 2017 +0530
+
+    Assignment 1, Question 1
